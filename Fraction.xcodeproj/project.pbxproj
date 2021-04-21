@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADCEA3DA26304B5600123F7B /* Fraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADCEA3D926304B5600123F7B /* Fraction.cpp */; };
 		ADE2A77D26136AA200D825BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADE2A77C26136AA200D825BE /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ADCEA3D826304B2C00123F7B /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		ADCEA3D926304B5600123F7B /* Fraction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fraction.cpp; sourceTree = "<group>"; };
 		ADE2A77926136AA200D825BE /* Fraction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fraction; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE2A77C26136AA200D825BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				ADE2A77C26136AA200D825BE /* main.cpp */,
+				ADCEA3D926304B5600123F7B /* Fraction.cpp */,
+				ADCEA3D826304B2C00123F7B /* Fraction.h */,
 			);
 			path = Fraction;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE2A77D26136AA200D825BE /* main.cpp in Sources */,
+				ADCEA3DA26304B5600123F7B /* Fraction.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
